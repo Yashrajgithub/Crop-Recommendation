@@ -82,8 +82,7 @@ Built with Streamlit, this web application seamlessly integrates a machine learn
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/Yashrajgithub/KrishiGyaan-CropRecommender.git
-    cd KrishiGyaan-CropRecommender
+    git clone https://github.com/Yashrajgithub/Crop-Recommendation.git
     ```
 2. Create a virtual environment and activate it:
     ```sh
