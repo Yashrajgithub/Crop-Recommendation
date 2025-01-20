@@ -30,7 +30,7 @@ The system architecture consists of two key elements: the web server and the ML 
 
 | System Architecture |
 |---------------------|
-| ![image](https://github.com/Yashrajgithub/KrishiGyaan-CropRecommender/blob/main/crop_images/system%20architecture.jpg) |
+| ![image](https://github.com/Yashrajgithub/Crop-Recommendation/blob/main/crop_images/system%20architecture.jpg) |
 
 
 ### Datasets
@@ -40,7 +40,7 @@ The dataset contains 2200 entries and 8 attributes, capturing key environmental 
 
 | Random data from the dataset for crop recommendation |
 |------------------------------------------------------|
-| ![image](https://github.com/Yashrajgithub/KrishiGyaan-CropRecommender/blob/main/crop_images/dataset.png) |
+| ![image](https://github.com/Yashrajgithub/Crop-Recommendation/blob/main/crop_images/dataset.png) |
 
 
 ### Crop Recommendation
@@ -63,7 +63,7 @@ The Random Forest algorithm delivered the highest performance, with an accuracy 
 
 | Accuracy Comparison |
 |---------------------|
-| ![image](https://raw.githubusercontent.com/Yashrajgithub/KrishiGyaan-CropRecommender/main/crop_images/Accuracy%20comparison.png) |
+| ![image](https://github.com/Yashrajgithub/Crop-Recommendation/blob/main/crop_images/Accuracy%20comparison.png) |
 
 
 ### Website Deployment
@@ -72,11 +72,11 @@ Built with Streamlit, this web application seamlessly integrates a machine learn
 
 | Landing page of the website |
 |-----------------------------|
-| ![image](https://github.com/Yashrajgithub/KrishiGyaan-CropRecommender/blob/main/crop_images/Landing%20Page.png) |
+| ![image](https://github.com/Yashrajgithub/Crop-Recommendation/blob/main/crop_images/Landing%20Page.png) |
 
 | Result of crop recommendation |
 |-----------------------------|
-| ![image](https://github.com/Yashrajgithub/KrishiGyaan-CropRecommender/blob/main/crop_images/Prediction%20result.png) |
+| ![image](https://github.com/Yashrajgithub/Crop-Recommendation/blob/main/crop_images/Prediction%20result.png) |
 
 ## Installation
 
