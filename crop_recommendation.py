@@ -56,11 +56,11 @@ def show_crop_image(crop_name):
     
     # Try to load the image directly from the URL
     try:
-        st.image(image_url, caption=f"Recommended crop: {crop_name}", use_container_width=True)
+        st.image(image_url, caption=f"Recommended crop: {crop_name}")
     except Exception as e:
         # Fallback to a placeholder image if the URL fails
         placeholder_url = "https://raw.githubusercontent.com/Yashrajgithub/Crop-Recommendation/main/crop_images/placeholder.jpeg"
-        st.image(placeholder_url, caption=f"Recommended crop: {crop_name}", use_container_width=True)
+        st.image(placeholder_url, caption=f"Recommended crop: {crop_name}")
 
 
 # Function to submit feedback
