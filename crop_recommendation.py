@@ -51,14 +51,17 @@ def predict_crop(nitrogen, phosphorus, potassium, temperature, humidity, ph, rai
 
 # Function to load and display an image of the predicted crop
 def show_crop_image(crop_name):
-    # Assuming you are using placeholder images
+    # Construct the URL to the crop image on GitHub
     image_url = f"https://raw.githubusercontent.com/Yashrajgithub/Crop-Recommendation/main/crop_images/{crop_name.lower()}.jpeg"
-    if os.path.exists(image_path):
-        st.image(image_path, caption=f"Recommended crop: {crop_name}", use_container_width=True)
-    else:
-        # Placeholder image in case the crop-specific image is not found
-        placeholder_image_path = 'crop_images/placeholder.jpeg'
-        st.image(placeholder_image_path, caption=f"Recommended crop: {crop_name}", use_container_width=True)
+    
+    # Try to load the image directly from the URL
+    try:
+        st.image(image_url, caption=f"Recommended crop: {crop_name}", use_container_width=True)
+    except Exception as e:
+        # Fallback to a placeholder image if the URL fails
+        placeholder_url = "https://raw.githubusercontent.com/Yashrajgithub/Crop-Recommendation/main/crop_images/placeholder.jpeg"
+        st.image(placeholder_url, caption=f"Recommended crop: {crop_name}", use_container_width=True)
+
 
 # Function to submit feedback
 def submit_feedback(name, email, feedback):
