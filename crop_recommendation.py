@@ -52,7 +52,7 @@ def predict_crop(nitrogen, phosphorus, potassium, temperature, humidity, ph, rai
 # Function to load and display an image of the predicted crop
 def show_crop_image(crop_name):
     # Assuming you are using placeholder images
-    image_path = os.path.join('crop_images', crop_name.lower() + '.jpeg')
+    image_url = f"https://raw.githubusercontent.com/Yashrajgithub/Crop-Recommendation/main/crop_images/{crop_name.lower()}.jpeg"
     if os.path.exists(image_path):
         st.image(image_path, caption=f"Recommended crop: {crop_name}", use_container_width=True)
     else:
